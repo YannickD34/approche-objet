@@ -18,5 +18,33 @@ public class Personne {
 		this.prenom = prenom;
 		this.adresse = adresse;
 	}
+	
+	public void afficherPersonne() {
+		System.out.println(this.nom.toUpperCase() + " " + this.prenom);
+	}
+	
+	public void modifierNomPersonne(String nouveauNom) {
+		this.nom = nouveauNom;
+	}
+	
+	public void modifierPrenomPersonne(String nouveauPrenom) {
+		this.prenom = nouveauPrenom;
+	}
+	
+	public void modifierAdresse(AdressePostale nouvelleAdresse) {
+		this.adresse = nouvelleAdresse;
+	}
+	
+	public String retournerNom() {
+		return this.nom;
+	}
+	
+	public String retournerPrenom() {
+		return this.prenom;
+	}
+	
+	public AdressePostale retournerAdresse() {
+		return this.adresse;
+	}
 
 }
