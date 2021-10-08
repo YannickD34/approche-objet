@@ -8,8 +8,6 @@ public class TestBanque {
 		
 		Compte cpt = new Compte("FR123456", 1250.50);
 		System.out.println(cpt);
-		System.out.println(cpt.getNumero());
-		System.out.println(cpt.getSolde());
 
 	}
 
