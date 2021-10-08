@@ -26,7 +26,7 @@ public class Compte {
 	
 	@Override
 	public String toString() {
-		return "Numéro de compte : " + numero + "\n Solde du compte : " + solde;
+		return "Numéro de compte : " + numero + "\nSolde du compte : " + solde + "€";
 	}
 
 	/** Getter
